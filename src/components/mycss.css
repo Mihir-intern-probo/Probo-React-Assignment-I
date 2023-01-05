@@ -1,0 +1,12 @@
+.myForm{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    text-align: justify;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: large;
+}
