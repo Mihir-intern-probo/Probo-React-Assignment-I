@@ -31,23 +31,23 @@ const UserForm = () => {
         <div className="myForm">
             <label>
                 Enter Your User Name: 
-                <input type="text" value={userName} onChange={(e)=>{setUserName(e.target.value)}} style={{width:"160px"}}/>
+                <input type="text" value={userName} onChange={(e)=>{setUserName(e.target.value)}} style={{width:"60%"}}/>
             </label><br/>
             <label>
                 Enter Your Name: 
-                    <input type="text" value={name} onChange={(e)=>{setName(e.target.value)}}/>
+                    <input type="text" value={name} onChange={(e)=>{setName(e.target.value)}} style={{width:"66%"}}/>
             </label><br/>
             <label>
                 Enter Your Phone Number: 
-                    <input type="number" value={phone} onChange={(e)=>{setPhone(e.target.value)}}/>
+                    <input type="number" value={phone} onChange={(e)=>{setPhone(e.target.value)}} style={{width:"54%"}}/>
             </label><br/>
             <label>
                 Enter Your Password:: 
-                    <input type="password" value={password} onChange={(e)=>{setPassword(e.target.value)}}/>
+                    <input type="password" value={password} onChange={(e)=>{setPassword(e.target.value)}} style={{width:"61%"}}/>
             </label><br/>
             <label>
                 Confirm Your Password:: 
-                    <input type="password" value={confirmPassword} onChange={(e)=>{setConfirmPassword(e.target.value)}}/>
+                    <input type="password" value={confirmPassword} onChange={(e)=>{setConfirmPassword(e.target.value)}} style={{width:"57%"}}/>
             </label><br/>
             <input type="submit"/>
         </div>
